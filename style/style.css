@@ -302,9 +302,48 @@ span {
 }
 
 #Myk {
-    width: 100%;
+    /* width: 100%;
     height: auto;
-    display: block;
+    display: block; */
+    position: relative;
+    /* Встановлюємо позицію блоку */
+    width: 100%;
+    /* Ширина блоку */
+    height: 300px;
+    /* Висота блоку (змініть на ваш розмір) */
+    background-color: #f0f0f0;
+    /* Колір фону блоку */
+    text-align: center;
+    /* Вирівнюємо текст по центру */
+    font-size: 24px;
+    /* Розмір шрифту тексту на фоні */
+    color: rgba(0, 0, 0, 0.3);
+    /* Колір тексту (можна змінити) */
+    z-index: -2;
+    /* Задаємо рівень шарування для тексту */
+}
+
+#Myk::before {
+    content: '';
+    /* Додаємо псевдоелемент ::before для розміщення тексту на задньому плані */
+    position: absolute;
+    /* Встановлюємо абсолютне позиціонування */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    /* Задаємо нижчий рівень шарування, ніж у блоку */
+    background-color: transparent;
+    /* Прозорий фон псевдоелемента */
+    color: #000;
+    /* Колір тексту на фоні (можна змінити) */
+    font-size: 40px;
+    /* Розмір шрифту тексту на фоні (можна змінити) */
+    opacity: 0.3;
+    /* Прозорість тексту на фоні */
+    mix-blend-mode: screen;
+    /* Режим злиття кольорів */
 }
 
 #form {
@@ -399,4 +438,48 @@ span {
     margin-top: 30px;
 
     word-break: break-word;
+}
+
+#group_img2 {
+    align-content: space-between;
+
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding-top: 27.5px;
+    padding-left: 40px;
+    height: 51px;
+    width: 490px;
+}
+
+#group_img2 a img {
+    width: 48px;
+    height: 48px;
+}
+
+#group_img2 button {
+    width: 256px;
+    height: 51px;
+
+    border-radius: 50px;
+    background: #FFF;
+}
+
+#group_img2 button a span {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.9px;
+
+    padding: 0;
+    margin: 0;
+    right: 23px;
+    bottom: 14px;
+    text-decoration: none;
+    border: none;
 }
