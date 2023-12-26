@@ -1,0 +1,402 @@
+@font-face {
+    font-family: "Inder";
+    src: url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: block;
+}
+
+.DIV {
+    position: relative;
+}
+
+#img1 {
+    height: 980px;
+    width: 1039px;
+    flex-shrink: 0;
+}
+
+.MYK {
+    position: absolute;
+    margin-left: 844px;
+    color: white;
+    font-family: Inter;
+    font-size: 192.914px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#img2 {
+    width: 245px;
+    height: 18px;
+
+    position: absolute;
+    margin-top: 601px;
+    left: 1074px;
+}
+
+.K_img {
+    position: absolute;
+    left: 1337px;
+    top: 702px;
+
+
+    width: 220px;
+    height: 222px;
+}
+
+#K {
+    position: absolute;
+
+    width: 220px;
+    height: 222px;
+}
+
+
+#G {
+    position: absolute;
+
+    margin-top: 95px;
+    margin-left: 95px;
+
+    stroke-width: 3px;
+
+    transform: translateX(-50%);
+
+    width: 23px;
+    height: 23px;
+
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+}
+
+#P {
+    margin-left: 195px;
+}
+
+#Pr {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-top: 302px;
+    left: 195px;
+}
+
+#Pm {
+    padding-top: 40px;
+
+    width: 947.306px;
+
+    color: #FFF;
+    font-family: Inder;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    word-break: break-word;
+}
+
+#P_img {
+    position: absolute;
+    top: 1230px;
+    right: 197px;
+
+    width: 488.399px;
+    height: 485.175px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+}
+
+#group_photo a img {
+    height: 50px;
+    width: 50px;
+}
+
+#group_photo {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+    margin-left: 195px;
+    width: 282px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+#MS {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 340px;
+}
+
+#M_Photo img {
+    width: 204px;
+    height: 204px;
+}
+
+#M_Photo {
+    margin-top: 130px;
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+
+    width: 1530px;
+}
+
+#D {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 252px;
+}
+
+#G_img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 120px;
+
+    width: 1480px;
+    height: 575px;
+    flex-shrink: 0;
+}
+
+#G_img img {
+    width: 675px;
+    flex-shrink: 0;
+}
+
+.img_345 {
+    padding-top: 75px;
+}
+
+#O {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+#RDGUu {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+    width: 402px;
+    height: 90px;
+    flex-shrink: 0;
+
+    padding: 0;
+    margin: 0;
+    margin-left: 517px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#Rok {
+    color: #00B88A;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 132px;
+
+    position: relative;
+
+    margin: 0;
+    margin-left: 787px;
+    margin-top: 30px;
+}
+
+#IPZ {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 440px;
+
+    position: relative;
+
+    margin: 0;
+    margin-left: 479px;
+    margin-top: 30px;
+}
+
+#img_1 {
+    width: 516.753px;
+    height: 378px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    position: relative;
+}
+
+#img_2 {
+    position: relative;
+    border-radius: 4px;
+
+    width: 208px;
+    height: 160px;
+    padding-bottom: 220px;
+    flex-shrink: 0;
+    left: 62px;
+}
+
+#img_3 {
+    position: relative;
+    border-radius: 4px;
+
+    width: 208px;
+    height: 160px;
+    left: -150px;
+    flex-shrink: 0;
+}
+
+#Myk {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#form {
+    margin-left: 195px;
+    margin-top: 36.4px;
+
+    width: 569.5px;
+    height: 695.204px;
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    background: #F9F9F9;
+}
+
+#stady {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+}
+
+#bottom_zw {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    padding-left: 42px;
+    padding-top: 50px;
+}
+
+#forder {
+    margin-top: 242px;
+
+    background-color: #0F0F0F;
+    height: 860px;
+    flex-shrink: 0;
+
+    display: flex;
+}
+
+#name {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+
+    padding-top: 146px;
+}
+
+#forder span {
+    padding-left: 40px;
+}
+
+#email {
+    color: #FFF;
+    font-family: Inder;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    margin-top: 30px;
+}
+
+#number {
+    color: #FFF;
+    font-family: Inder;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    margin-top: 5px;
+}
+
+#words {
+    color: #FFF;
+    font-family: Inder;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    text-indent: 8px;
+    width: 930px;
+    margin-top: 30px;
+
+    word-break: break-word;
+}
