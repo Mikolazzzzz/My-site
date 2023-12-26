@@ -22,7 +22,9 @@
 
         <div class="K_img">
             <img src="/img/lv_0_20231225113912.gif" id="K" alt="">
-            <a href="#Pr"><div id="G"></div></a>
+            <a href="#P_img">
+                <div id="G"></div>
+            </a>
         </div>
     </div>
 
@@ -38,7 +40,8 @@
             <div></div>
         </div>
 
-        <img src="/img/20220127@2x.png" alt="" id="P_img">
+        <img src="/img/20220127.png" alt="/img/" id="P_img" class="gallery" style="cursor: pointer;"
+            onclick="openModal('/img/20220127.png', '')">
 
         <div id="group_photo">
             <a href=""><img src="/img/Telegram_white.png" alt=""></a>
@@ -80,12 +83,21 @@
                 <span id="IPZ">Інженерія Програмного Забезпечення</span>
             </div>
 
-            <div style="display: inline-block; margin-left:46px;">
-                <img src="/img/image-211.png" alt="" id="img_1">
-                <img src="/img/image-220.png" alt="" id="img_2">
-                <img src="/img/image-221.png" alt="" id="img_3">
+            <div style="display: inline-block; margin-left:46px;" class="gallery">
+                <img src="/img/image-211.png" alt="" id="img_1"
+                    onclick="openModal('/img/image-211.png', '')">
+                <img src="/img/image-220.png" alt="" id="img_2"
+                    onclick="openModal('/img/image-220.png', '')">
+                <img src="/img/image-221.png" alt="" id="img_3"
+                    onclick="openModal('/img/image-221.png', '')">
             </div>
         </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" class="modal-content" id="modal-img">
+        <div id="caption"></div>
     </div>
 
     <!-- <div id="Myk">
