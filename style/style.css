@@ -15,6 +15,7 @@ span {
 
 .DIV {
     position: relative;
+    display: flex;
 }
 
 #img1 {
@@ -33,6 +34,27 @@ span {
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
+}
+
+#web_dew {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.4px;
+    text-transform: uppercase;
+    color: transparent;
+
+    color: black;
+    -webkit-text-stroke: 0.29px rgb(255, 255, 255);
+    width: 245px;
+    height: 18px;
+
+    position: absolute;
+    margin: 0;
+    margin-top: 601px;
+    left: 1074px;
 }
 
 #img2 {
